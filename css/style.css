@@ -1,0 +1,698 @@
+/*
+=================================================================================
+                                basic setups
+=================================================================================
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+/*
+=================================================================================
+                                re-useable components
+=================================================================================
+*/
+.line{
+    width: 10%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+.line::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+.line::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 25px;
+}
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+}
+h6 {
+    color: rgb(0, 142, 214);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 25px;
+    letter-spacing: 0.2em;
+}
+h2{
+    color: black;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+h3{
+    font-size: 24px;
+}
+/*
+=================================================================================
+                                    header css
+=================================================================================
+*/
+header {
+    background-image: url("../images/banner.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.2rem rgb(0, 142, 214);
+}
+.navbar-toggler i{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    position: relative;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px;
+}
+.navbar-light .navbar-nav .nav-item {
+    padding-left: 30px;
+}
+.navbar-nav{
+    text-align: center;
+}
+.navbar-nav a{
+    display: inline;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link::before {
+    position: absolute;
+    content: "";
+    bottom: 0px;
+    left: 0px;
+    height: 2px;
+    width: 0%;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.3s ease-in-out 0s;
+}
+.navbar-light .navbar-nav .nav-link::after {
+    position: absolute;
+    content: "";
+    bottom: 0px;
+    right: 0px;
+    height: 2px;
+    width: 0%;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.3s ease-in-out 0s;
+}
+.navbar-light .navbar-nav .nav-link:hover::before {
+    width: 45%;
+}
+.navbar-light .navbar-nav .nav-link:hover::after {
+    width: 45%;
+}
+
+.btn-download {
+    background: rgb(0, 142, 214);
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    margin-right: 40px;
+}
+.btn-download:hover {
+    background: transparent;
+    border: 1px solid rgb(153, 153, 153);
+    color: white;
+}
+.btn-feature {
+    background: transparent;
+    border: 1px solid rgb(153, 153, 153);
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 30px;
+}
+.btn-feature:hover {
+    background: rgb(0, 142, 214);
+    color: white;
+    border: 1px solid rgb(0, 142, 214);
+}
+
+.banner-text {
+    min-height: 93vh;
+    align-items: center;
+    padding: 50px 0px;
+}
+.banner-text-width{
+    width: 60%;
+}
+.banner-text p{
+        margin-bottom: 30px;
+}
+.banner-image {
+    position: absolute;
+    bottom: 0px;
+    left: 60%;
+}
+.banner-image img {
+
+}
+
+/*
+=================================================================================
+                                    feature css
+=================================================================================
+*/
+.feature {
+    padding: 50px 0px 100px;
+}
+
+.feature-title {
+    margin-bottom: 70px;
+}
+.feature:hover ::after {
+    width: 48%;
+}
+.feature:hover ::before {
+    width: 48%;
+}
+.feature-item{
+   box-shadow: 10px 10px 15px 0px rgb(203 203 203);
+   padding: 20px 10px;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 50%;
+    font-size: 30px;
+    color: rgb(0, 142, 214);
+}
+
+
+
+/*
+=================================================================================
+                                    content css
+=================================================================================
+*/
+.content-row {
+    align-items: center;
+}
+.content-img{
+
+}
+.content-img img {
+    width: 75%;
+}
+.content-text {
+
+}
+.content-items{
+
+}
+.left-line-r{
+    width: 10%;
+    position: relative;
+}
+.left-line-r::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+.left-line-r::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+.content:hover ::after {
+    width: 48%;
+}
+.content:hover ::before {
+    width: 48%;
+}
+.content-text h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.content-text .icon1 {
+    color: rgb(0, 173, 232);
+    font-size: 18px;
+    margin-right: 10px;
+}
+.content-text p{
+    /* margin-top: 60px; */
+    padding: 30px 0px;
+}
+
+
+
+
+/*
+=================================================================================
+                                    customize part css
+=================================================================================
+*/
+.customize {
+    background: rgb(242, 242, 242);
+    padding: 50px 0px;
+}
+.customize-row {
+    align-items: center;
+}
+.left-line{
+    width: 10%;
+    position: relative;
+}
+.left-line::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+.left-line::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+.customize:hover ::after {
+    width: 47%;
+}
+.customize:hover ::before {
+    width: 47%;
+}
+.customize p{
+    padding: 30px 0px;
+}
+
+
+
+/*
+=================================================================================
+                                   customer review css
+=================================================================================
+*/
+.customer-review {
+    background-image: url("../images/price-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+.price h1 {
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    margin: 0px;
+    color: white;
+    text-transform: capitalize;
+}
+.customer-review:hover ::after {
+    width: 47%;
+}
+.customer-review:hover ::before {
+    width: 47%;
+}
+.customer-review-title{
+    padding: 35px 0px;
+}
+.customer-review-title h2{
+    color: white;
+}
+
+.review p {
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    font-weight: 300;
+}
+.customer-profile{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.customer-bio{
+    margin-left: 30px;
+}
+.customer-image{
+    width: 10%;
+}
+.customer-bio h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.customer-bio h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+.owl-nav {
+    display: none;
+}
+.owl-dots {
+    text-align: center;
+}
+.owl-dots span {
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid white;
+    margin: 0px 10px;
+}
+.owl-dots .active span {
+    background-color: white;
+}
+
+
+
+/*
+=================================================================================
+                                  get theme css
+=================================================================================
+*/
+.get-theme{
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    background-color: black;
+}
+
+.get-theme-row {
+    display: flex;
+    align-items: center;
+}
+.get-theme h2 {
+    color: white;
+    margin: 0;
+}
+.get-theme span {
+    margin: 0px;
+    font-weight: 300;
+}
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-feature2 {
+    background: transparent;
+    border: 1px solid rgb(153, 153, 153);
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    margin-right: 30px;
+}
+.btn-feature2:hover {
+    background: rgb(0, 142, 214);
+    color: white;
+    border: 1px solid rgb(0, 142, 214);
+}
+.btn-download2 {
+    background: rgb(0, 142, 214);
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 30px;
+}
+.btn-download2:hover {
+    background: transparent;
+    border: 1px solid rgb(153, 153, 153);
+    color: white;
+}
+
+
+
+
+
+
+
+/*
+=================================================================================
+                                  pricing part css
+=================================================================================
+*/
+.pricing {
+    padding: 50px 0px;
+}
+.pricing:hover ::before {
+    width: 48%;
+}
+.pricing:hover ::after {
+    width: 48%;
+}
+.pricing-heading{
+    margin-bottom: 70px;
+}
+.price-part {
+    border: 1px solid rgb(153, 153, 153);
+}
+.price-part h4 {
+    margin: 0px;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    transition: all 0.3s ease-in 0s;
+}
+.price-part h3 {
+    padding-top: 40px;
+    font-size: 60px;
+    font-weight: 600;
+}
+.price-part sup {
+    font-size: 35px;
+    font-weight: 600;
+}
+.price-part h5 {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    padding-bottom: 40px;
+    transition: all 0.3s ease-in 0s;
+}
+.price-part p{
+    margin-bottom: 40px;
+}
+.price-details {
+    margin: 50px 0px 30px 0px;
+}
+.price-part a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 142, 214);
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+}
+.price {
+    transition: all 0.3s ease-in 0s;
+}
+.price-part:hover .price {
+    background-color: rgb(0, 142, 214);
+}
+.price-part:hover h4 {
+    color: rgb(0, 142, 214);
+}
+.price-part:hover h3{
+    color: white;
+}
+.price-part:hover h5{
+    color: white;
+}
+.price-part a:hover {
+    background-color: rgb(0, 142, 214);
+    color: white;
+    border: 1px solid rgb(0, 142, 214);
+}
+
+
+
+/*
+=================================================================================
+                                  contact part css
+=================================================================================
+*/
+.contact {
+    background-color: rgb(196, 194, 194);
+    position: relative;
+    padding: 50px 0px;
+}
+.contact:hover ::before {
+    width: 47%;
+}
+.contact:hover ::after {
+    width: 47%;
+}
+.contact-title{
+    padding: 30px 0px;
+}
+.contact-row {
+    margin-bottom: 300px;
+}
+.contact-icon i {
+    font-size: 30px;
+    color: rgb(0, 142, 214);
+}
+.contact-item {
+
+}
+.contact-item a,
+p {
+    display: block;
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+    font-size: 18px;
+    margin: 0px;
+}
+
+/*
+=================================================================================
+                                  contact form css
+=================================================================================
+*/
+.contact-form {
+    width: 60%;
+    margin: auto;
+    padding: 60px;
+    background: black;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.contact-form input {
+    padding: 13px 10px;
+    background: transparent;
+    border: 1px solid rgb(153, 153, 153);
+}
+.contact-form textarea {
+    background: transparent;
+    border: 1px solid rgb(153, 153, 153);
+    margin-bottom: 20px;
+}
+
+.contact-form input[type="submit"] {
+    color: white;
+    background-color: rgb(0, 142, 214);
+    padding: 15px 35px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    float: right;
+}
+.contact-form input[type="submit"]:hover {
+    background-color: transparent;
+}
+.form-control:focus {
+    color: rgb(33, 37, 41);
+    background-color: transparent;
+    border-color: rgb(153, 153, 153);
+    caret-color: white;
+    box-shadow: none;
+    outline: none;
+}
+input::placeholder {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+textarea::placeholder {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+/*
+=================================================================================
+                                  footer css
+=================================================================================
+*/
+footer {
+    background-color: rgb(21, 20, 26);
+    padding: 25px;
+}
+.footer-icon {
+    padding: 25px 0px;
+}
+.footer-icon a {
+    text-decoration: none;
+    color: rgb(68, 67, 72);
+    padding: 0px 15px;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out 0s;
+}
+.footer-icon a:hover {
+    color: rgb(0, 142, 214);
+}
+footer p {
+    text-transform: uppercase;
+    color: rgb(68, 67, 72);
+    font-weight: 600;
+    font-size: 14px;
+}

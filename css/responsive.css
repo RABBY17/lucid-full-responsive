@@ -1,0 +1,484 @@
+
+@media(min-width: 0px) and (max-width: 320px){
+    h1 {
+        font-size: 35px;
+    }
+    p{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 30px;
+    }
+
+    .navbar-light .navbar-nav .nav-item {
+        padding-left: 0px;
+        margin-bottom: 10px;
+    }
+    .banner-text {
+        text-align: center;
+    }
+    .banner-text-width{
+        width: 100%;
+    }
+    .pricing-heading {
+        margin-bottom: 40px;
+    }
+    .price-part {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    .feature-title {
+        margin-bottom: 0px;
+    }
+    .banner-image {
+        display: none;
+    }
+    .btn-download {
+        padding: 10px 30px;
+        margin-bottom: 25px;
+        margin-right: 0;
+    }
+    .btn-feature {
+        padding: 10px 37px;
+    }
+    .icon {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        margin: auto;
+        margin-bottom: 10px;
+        border: 1px solid rgb(153, 153, 153);
+        border-radius: 50%;
+        font-size: 20px;
+        color: rgb(0, 142, 214);
+    }
+    .feature-item {
+        padding: 15px 0px;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 25px;
+        box-shadow: 10px 10px 25px 0px #dfd4d4;
+    }
+    .content-img {
+        text-align: center;
+    }
+    .content-text h5 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    .contact-item {
+        margin-bottom: 20px;
+    }
+    .contact-item a, p {
+        font-size: 14px;
+    }
+    .feature {
+        padding: 50px 0px 50px;
+    }
+    .customize {
+        text-align: center;
+    }
+    .left-line {
+        width: 10%;
+        margin: auto;
+    }
+    .customer-review {
+        padding: 50px 0px;
+    }
+    .customer-review-title {
+        padding: 0;
+    }
+    .customer-image {
+        width: 15%;
+    }
+    .customer-profile {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .customer-bio {
+        margin-left: 20px;
+    }
+
+    .get-theme {
+        padding: 50px 0px;
+    }
+    .get-theme-row {
+        text-align: left;
+    }
+    .buttons {
+        display: block;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .btn-feature2 {
+        margin: 0;;
+        padding: 10px 30px;
+        margin-bottom: 20px;
+    }
+    .btn-download2 {
+        padding: 10px 22px;
+    }
+
+    .contact-form {
+        width: 90%;
+        margin: auto;
+        padding: 30px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .contact-form input {
+        padding: 10px 10px;
+        background: transparent;
+        border: 1px solid rgb(153, 153, 153);
+    }
+    .contact-form textarea {
+        background: transparent;
+        border: 1px solid rgb(153, 153, 153);
+        margin: 30px 0px;
+        height: 100px;
+    }
+    .contact-form input[type="submit"] {
+        font-size: 12px;
+        width: 100%;
+    }  
+
+    .footer-icon {
+        padding: 10px 0px;
+    }
+    .footer-icon a {
+        padding: 0px 10px;
+        font-size: 15px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+
+
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+    .navbar-light .navbar-nav .nav-item {
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+    .banner-text {
+        padding: 50px 0px;
+        text-align: center;
+    }
+    .banner-text-width{
+        width: 100%;
+    }
+    
+    .banner-image {
+        display: none;
+    }
+    .btn-download {
+        padding: 12px 15px;
+        margin: 0;
+        margin-right: 20px;
+    }
+    .btn-feature {
+        padding: 12px 15px;
+    }
+    .feature-item {
+        padding: 20px 20px;
+    }
+    .content-img {
+        text-align: center;
+    }
+    .icon {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+    .customize-row {
+        text-align: center;
+    }
+    .left-line {
+        width: 10%;
+        margin: auto;
+        position: relative;
+    }
+
+    .customer-review {
+        padding: 50px 0px;
+    }
+    .customer-review-title {
+        padding: 0px;
+    }
+    .customer-profile {
+        margin-bottom: 50px;
+    }
+    .get-theme {
+        padding: 25px 0px;
+    }
+    .buttons {
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .btn-feature2 {
+        padding: 12px 15px;
+        margin-right: 20px;
+    }
+    .btn-download2 {
+        padding: 12px 15px;
+    }
+    .pricing-heading {
+        margin-bottom: 50px;
+    }
+    .price-part {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .contact-form {
+        width: 90%;
+        margin: auto;
+        padding: 30px;
+    }
+    .contact-form {
+        width: 90%;
+        margin: auto;
+        padding: 30px;
+        top: 65%;
+    }
+    .contact-form input {
+        padding: 10px 10px;
+    }
+    .contact-form textarea {
+        margin: 20px 0px;
+        height: 100px;
+    }
+    .contact-form input[type="submit"] {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    .contact-item {
+        margin-bottom: 20px;
+    }
+    .footer-icon a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .navbar-light .navbar-nav .nav-item {
+        padding-left: 0px;
+        margin-bottom: 10px;
+    }
+    .banner-text {
+        padding: 50px 0px;
+        text-align: center;
+    }
+    .banner-text-width{
+        width: 100%;
+    }
+    .banner-image {
+      display: none;
+    }
+    .banner-text p {
+        margin-bottom: 50px;
+    }
+
+    .feature-title {
+        margin-bottom: 30px;
+    }
+    .feature-title {
+        margin-bottom: 30px;
+    }
+    .feature-item {
+        padding: 30px 20px;
+        width: 90%;
+        margin: auto;
+        box-shadow: 10px 10px 10px 10px #e9e6e6;
+        margin-bottom: 40px;
+    }
+    .icon {
+        margin-bottom: 10px;
+    }
+    .icon {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+    .content-img {
+        text-align: center;
+    }
+
+    .customize {
+        text-align: center;
+    }
+    .left-line {
+        width: 10%;
+        margin: auto;
+    }
+    .customer-review {
+        padding: 50px 0px;
+    }
+    .customer-review-title {
+        padding: 0px;
+    }
+    .buttons {
+        text-align: center;
+        justify-content: center;
+    }
+    .pricing-heading {
+        margin-bottom: 30px;
+    }
+    .price-part {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .get-theme h2 {
+        margin-bottom: 20px;
+    }
+    .get-theme-row {
+        padding: 25px 0px;
+    }
+    .contact-item {
+        margin-bottom: 20px;
+    }
+    .contact-form {
+        width: 90%;
+        margin: auto;
+        padding: 50px;
+        margin-top: 50px;
+    }
+    .contact-form textarea {
+        height: 150px;
+        margin: 30px 0px;
+    }
+    .contact-form input[type="submit"] {
+        padding: 10px 25px;
+    }
+
+}
+
+
+
+@media(min-width: 769px) and (max-width: 992px){
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 32px;
+    }
+   p {
+       font-size: 16px;
+    }
+    .navbar-light .navbar-nav .nav-item {
+        padding-left: 0px;
+        margin-bottom: 10px;
+    }
+    .banner-image {
+        position: unset;
+        text-align: center;
+        width: 60%;
+        margin: auto;
+    }
+    .banner-text {
+        padding: 50px 0px;
+    }
+    .banner-text-width {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .banner-text p {
+        margin-bottom: 50px;
+    }
+    .btn-download {
+       margin: 0;
+    }
+    .btn-feature {
+        margin-left: 30px;
+    }
+    .icon {
+        margin-bottom: 10px;
+    }
+    .feature-title {
+        margin-bottom: 50px;
+    }
+    .feature-item {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+        padding: 20px 10px;
+        box-shadow: 0px 10px 10px 5px #e9e9e9;
+    }
+    .customer-review {
+        padding-bottom: 20px;
+    }
+    .get-theme {
+        padding: 25px 0px;
+    }
+    .pricing-heading {
+        margin-bottom: 50px;
+    }
+    .buttons {
+        width: 100%;
+        text-align: center;
+        display: flex; 
+        justify-content: center; 
+        margin-top: 30px;
+    }
+    .btn-feature2 {
+        padding: 15px 30px;
+        margin-right: 20px;
+    }
+    .btn-download2 {
+        padding: 15px 30px;
+    }
+    .price-part {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .contact-form {
+        width: 90%;
+        margin: auto;
+        padding: 50px;
+    }
+
+}
+
+
+@media(min-width: 992px) and (max-width: 1024px){
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: 20px;
+    }
+    .banner-text-width {
+        margin-top: 0px;
+    }
+    .banner-image {
+        margin-top: 50px;
+    }
+    .banner-text {
+        padding: 50px 0px;
+    }
+    .feature-title {
+        margin-bottom: 50px;
+    }
+    .pricing-heading {
+        margin-bottom: 50px;
+    }
+    .contact-form {
+        width: 80%;
+        margin: auto;
+        padding: 50px;
+    }
+    .btn-feature2 {
+        display: inline-block;
+    }
+}
